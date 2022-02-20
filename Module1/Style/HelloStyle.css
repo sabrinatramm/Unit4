@@ -37,7 +37,7 @@ h3{font-size:5%;
 		
 	}
 	a:link{
-		color: violet; 
+		color: blue; 
 	}
 
 	a:visited{
@@ -47,7 +47,7 @@ h3{font-size:5%;
 		color: red;
 	}
 	a:hover{
-		color: blue;
+		color: green;
 	}
 	a:active{
 		color: yellow;
