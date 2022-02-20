@@ -24,17 +24,34 @@ h3{font-size:5%;
 	
 	nav{
 				display: flex;
-				border-bottom: 1px solid #ccc;
+				border-top: 2px solid black;
+				border-bottom: 2px solid black;
 			}
 			a{
 				margin: 0 5px;
 				padding: 5px 15px;
-				border-radius: 3px 3px 0 0;
-				background-color: blue;
-				text-decoration: none;
-				color: indigo;
+				background- color: light grey;
+				font-weight: bold;
+				border-right: 2 px solid black;
+		
 			}
-			a:hover, a:focus, a:active{
+			<style>
+			a:link{
+				color: orange; 
+			}
+
+			a:visited{
+				color: grey;
+			}
+			a:focus{
+				color: red;
+			}
+			a:hover{
+				color: blue;
+			}
+			a:active{
+				color: yellow;
+			}
 				background-color: pink;
 				color: black;
 			}
