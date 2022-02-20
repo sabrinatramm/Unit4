@@ -30,15 +30,13 @@ h3{font-size:5%;
 				margin: 0 5px;
 				padding: 5px 15px;
 				border-radius: 3px 3px 0 0;
-				background-color: #ddaa00;
+				background-color: blue;
 				text-decoration: none;
-				color:#ffffff;
+				color: indigo;
 			}
 			a:hover, a:focus, a:active{
-				background-color: #ffcc22;
+				background-color: pink;
 				color: black;
 			}
 				
-			nav {
-			     display; flex;
-			}     
+			
