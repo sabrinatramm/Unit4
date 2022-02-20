@@ -23,38 +23,19 @@ h3{font-size:5%;
 }
 	
 	nav{
-				display: flex;
-				border-top: 10px solid black;
-				border-bottom: 10px solid black;
-			}
-			a{
-				margin: 0 5px;
-				padding: 15px 20px;
-				border-radius: 3px 3px 0 0;
-				background- color: grey;
-				font-weight: bold;
-				border-right: 2 px solid black;
+		display: flex;
+		border-top: 10px solid black;
+		border-bottom: 10px solid black;
+		border-right: 2 px solid black;
+	}
+	a{
+		margin: 0 5px;
+		padding: 5px 20px;
+		border-radius: 3px 3px 0 0;
+		background-color: grey;
+		font-weight: bold;
 		
-			}
-			<style>
-			a:link{
-				color: orange; 
-			}
-
-			a:visited{
-				color: grey;
-			}
-			a:focus{
-				color: red;
-			}
-			a:hover{
-				color: blue;
-			}
-			a:active{
-				color: yellow;
-			}
-				background-color: pink;
-				color: black;
-			}
+	}
+	
 				
 			
