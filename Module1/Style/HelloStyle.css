@@ -30,7 +30,8 @@ h3{font-size:5%;
 			a{
 				margin: 0 5px;
 				padding: 15px 20px;
-				background- color: light grey;
+				border-radius: 3px 3px 0 0;
+				background- color: grey;
 				font-weight: bold;
 				border-right: 2 px solid black;
 		
