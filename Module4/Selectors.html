@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Relational Selectors</title>
+		
+		<style>
+		
+			*{font-size:18pt;
+			
+			}
+						
+			
+			.blue{
+				color: blue;
+			}	
+
+			#classred{
+				color: red;
+			}	
+			
+			
+			p{
+				font-size:2em;
+			}
+			
+			h1, h3, classred{
+				font-size:40%;
+			}
+			
+				
+			h1{
+				color: green;
+				
+			}
+			
+		</style>
+		
+	</head>
+		<body>
+			<section>
+				<h1 Class="blue">This is my first header of the section</h1>
+				<p>This is my paragraph in the section</p>
+				<p id="classred">This is my second paragraph and has a class</p>
+				<p>This is my third paragraph</p>
+			</section>
+			
+			<section>
+				<h1 id="classred">This is my first header in this section with a class</h1>
+				<h2>h2</h2>
+				<h3 class="blue">h3</h3>
+				<h3>h3 with no class</h3>
+				<p class="blue">This is a p with a class</p>
+			</section>
+			
+			<section>
+				<p> This is my paragraph as a selector</p>
+				<p> This is my section 2</p>
+			</section>
+			
+			
+			
+		</body>
+		
+		
+</html>		
